@@ -1,13 +1,9 @@
 #!/bin/bash
-# script to install latest golang
-# you will need to link the location of golang in the .bashrc and your enviornment
-
-# Golang-Install
-# Project Home Page:
-# https://github.com/skiy/golang-install
-# Author: Skiychan <dev@skiy.net>
-# Link: https://www.skiy.net
-# Modified: Sam Sepiol
+# description: script to install latest golang
+# project homepage: https://github.com/skiy/golang-install
+# author: Skiychan <dev@skiy.net>
+# author website: https://www.skiy.net
+# modified author: ecorp-sam sepiol
 
 # global variables
 user=$(logname)
