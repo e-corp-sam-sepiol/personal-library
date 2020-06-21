@@ -1,2 +1,3 @@
-# scripts
-Personal toolbox of assorted scripts.
+# personal-library
+
+### My personal toolbox of documentation, assorted scripts and other miscellaneous items.
