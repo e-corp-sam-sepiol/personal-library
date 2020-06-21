@@ -3,10 +3,7 @@
 # author: ecorp-sam sepiol
 # dependencies: speedometer
 
-# variables
-ACTIVE_INTERFACE="$(ip addr | awk '/state UP/ {print $2}' | tr -d ':')"
-
-# install depends
+# check for dependencies and install if missing
 if [ $(dpkg-query -W -f='${Status}' speedometer 2>/dev/null | grep -c "ok installed") -eq 0 ];
         then
         if (( $EUID != 0 ));
@@ -17,5 +14,8 @@ if [ $(dpkg-query -W -f='${Status}' speedometer 2>/dev/null | grep -c "ok instal
         sudo apt install speedometer;
 fi
 
+# variables
+ACTIVE_INTERFACE="$(ip addr | awk '/state UP/ {print $2}' | tr -d ':')"
+
 # begin
-speedometer -l  -r $ACTIVE_INTERFACE -t $ACTIVE_INTERFACE -m $(( 1024 * 1024 * 3 / 2 ))
+speedometer -r $ACTIVE_INTERFACE -t $ACTIVE_INTERFACE
