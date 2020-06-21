@@ -21,6 +21,29 @@ Navigate to `~/.config/cava/config` and modify the `[output]` section so that `m
 # 'raw' defaults to 200 bars, which can be adjusted in the 'bars' option above.
 method = ncurses
 ```
+
+## Modifying CAVA Color Scheme
+Navigate to `~/.config/cava/config` and modify the `[color]` section, uncomment the lines starting with `gradient`, enabling color gradients.
+
+Swap out the `gradient_color` lines with different hex codes to modify the colors used in the visualizer.
+
+Example configuration `~/.config/cava/config` 
+
+```
+# Gradient mode, only hex defined colors (and thereby ncurses mode) are supported,
+# background must also be defined in hex  or remain commented out. 1 = on, 0 = off.
+# You can define as many as 8 different colors. They range from bottom to top of screen
+gradient = 1
+gradient_count = 8
+gradient_color_1 = '#59cc33'
+gradient_color_2 = '#80cc33'
+gradient_color_3 = '#a6cc33'
+gradient_color_4 = '#cccc33'
+gradient_color_5 = '#cca633'
+gradient_color_6 = '#cc8033'
+gradient_color_7 = '#cc5933'
+gradient_color_8 = '#cc3333'
+```
 ___
 ## Color Generation Tools
 **RGB Color Gradient Maker**
