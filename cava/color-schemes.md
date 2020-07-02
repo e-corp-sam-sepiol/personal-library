@@ -73,3 +73,31 @@ gradient_color_6 = '#ce6c62'
 gradient_color_7 = '#e47a5f'
 gradient_color_8 = '#fa895c'
 ```
+
+### Cotton Candy 
+[![https://imgur.com/24vjeGV.png](https://imgur.com/24vjeGV.png)](https://imgur.com/24vjeGV.png)
+
+```
+gradient_color_1 = '#b51aff'
+gradient_color_2 = '#9d3aff'
+gradient_color_3 = '#855aff'
+gradient_color_4 = '#6d7bff'
+gradient_color_5 = '#569bff'
+gradient_color_6 = '#3ebcff'
+gradient_color_7 = '#26dcff'
+gradient_color_8 = '#0ffdff'
+```
+
+### Lime
+[![https://imgur.com/z2aiHVD.png](https://imgur.com/z2aiHVD.png)](https://imgur.com/z2aiHVD.png)
+
+```
+gradient_color_1 = '#00db41'
+gradient_color_2 = '#24e047'
+gradient_color_3 = '#48e54d'
+gradient_color_4 = '#6cea53'
+gradient_color_5 = '#91ef59'
+gradient_color_6 = '#b5f45f'
+gradient_color_7 = '#d9f965'
+gradient_color_8 = '#feff6b'
+```
