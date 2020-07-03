@@ -101,3 +101,17 @@ gradient_color_6 = '#b5f45f'
 gradient_color_7 = '#d9f965'
 gradient_color_8 = '#feff6b'
 ```
+
+### Grayscale
+[![https://imgur.com/pIgXzs4.png](https://imgur.com/pIgXzs4.png)](https://imgur.com/pIgXzs4.png)
+
+```
+gradient_color_1 = '#484848'
+gradient_color_2 = '#626262'
+gradient_color_3 = '#7c7c7c'
+gradient_color_4 = '#969696'
+gradient_color_5 = '#b0b0b0'
+gradient_color_6 = '#cacaca'
+gradient_color_7 = '#e4e4e4'
+gradient_color_8 = '#ffffff'
+```
