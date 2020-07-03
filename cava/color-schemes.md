@@ -102,6 +102,20 @@ gradient_color_7 = '#d9f965'
 gradient_color_8 = '#feff6b'
 ```
 
+### Pastel
+[![https://imgur.com/sKL628K.png](https://imgur.com/sKL628K.png)](https://imgur.com/sKL628K.png)
+
+```
+gradient_color_1 = '#c397e7'
+gradient_color_2 = '#e89bd8'
+gradient_color_3 = '#e99faa'
+gradient_color_4 = '#eac7a4'
+gradient_color_5 = '#e1eca9'
+gradient_color_6 = '#baedad'
+gradient_color_7 = '#b2eecd'
+gradient_color_8 = '#b6eaef'
+```
+
 ### Grayscale
 [![https://imgur.com/pIgXzs4.png](https://imgur.com/pIgXzs4.png)](https://imgur.com/pIgXzs4.png)
 
