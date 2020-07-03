@@ -47,6 +47,16 @@ lime_6="gradient_color_6 = '#b5f45f'"
 lime_7="gradient_color_7 = '#d9f965'"
 lime_8="gradient_color_8 = '#feff6b'"
 
+# pastel
+pastel_1="gradient_color_1 = '#c397e7'"
+pastel_2="gradient_color_2 = '#e89bd8'"
+pastel_3="gradient_color_3 = '#e99faa'"
+pastel_4="gradient_color_4 = '#eac7a4'"
+pastel_5="gradient_color_5 = '#e1eca9'"
+pastel_6="gradient_color_6 = '#baedad'"
+pastel_7="gradient_color_7 = '#b2eecd'"
+pastel_8="gradient_color_8 = '#b6eaef'"
+
 # grayscale color theme
 grayscale_1="gradient_color_1 = '#484848'"
 grayscale_2="gradient_color_2 = '#626262'"
@@ -64,6 +74,7 @@ PS3='Select a color scheme to apply: '
 options=("Sunset" 
 	 "Cotton Candy" 
 	 "Lime" 
+	 "Pastel"
 	 "Grayscale" 
 	 "Exit")
 
@@ -111,6 +122,22 @@ do
             sed -i "${gradient_color_6}s/.*/${lime_6}/" ~/.config/cava/config
             sed -i "${gradient_color_7}s/.*/${lime_7}/" ~/.config/cava/config
             sed -i "${gradient_color_8}s/.*/${lime_8}/" ~/.config/cava/config
+            clear
+            echo "The color configuration has been applied..."
+            echo "Please reload your cava config [r]"
+            echo
+            break
+            ;;
+            
+        "Pastel")
+            sed -i "${gradient_color_1}s/.*/${pastel_1}/" ~/.config/cava/config
+            sed -i "${gradient_color_2}s/.*/${pastel_2}/" ~/.config/cava/config
+            sed -i "${gradient_color_3}s/.*/${pastel_3}/" ~/.config/cava/config
+            sed -i "${gradient_color_4}s/.*/${pastel_4}/" ~/.config/cava/config
+            sed -i "${gradient_color_5}s/.*/${pastel_5}/" ~/.config/cava/config
+            sed -i "${gradient_color_6}s/.*/${pastel_6}/" ~/.config/cava/config
+            sed -i "${gradient_color_7}s/.*/${pastel_7}/" ~/.config/cava/config
+            sed -i "${gradient_color_8}s/.*/${pastel_8}/" ~/.config/cava/config
             clear
             echo "The color configuration has been applied..."
             echo "Please reload your cava config [r]"
