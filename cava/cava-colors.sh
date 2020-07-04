@@ -57,6 +57,16 @@ pastel_6="gradient_color_6 = '#baedad'"
 pastel_7="gradient_color_7 = '#b2eecd'"
 pastel_8="gradient_color_8 = '#b6eaef'"
 
+# Super NES
+super_nes_1="gradient_color_1 = '#6541a5'"
+super_nes_2="gradient_color_2 = '#7556ac'"
+super_nes_3="gradient_color_3 = '#866bb3'"
+super_nes_4="gradient_color_4 = '#9780bb'"
+super_nes_5="gradient_color_5 = '#a896c2'"
+super_nes_6="gradient_color_6 = '#b9abca'"
+super_nes_7="gradient_color_7 = '#cac0d1'"
+super_nes_8="gradient_color_8 = '#dbd6d9'"
+
 # grayscale color theme
 grayscale_1="gradient_color_1 = '#484848'"
 grayscale_2="gradient_color_2 = '#626262'"
@@ -75,6 +85,7 @@ options=("Sunset"
 	 "Cotton Candy" 
 	 "Lime" 
 	 "Pastel"
+	 "Super NES"
 	 "Grayscale" 
 	 "Exit")
 
@@ -144,7 +155,23 @@ do
             echo
             break
             ;;
-            
+        
+        "Super NES")
+            sed -i "${gradient_color_1}s/.*/${super_nes_1}/" ~/.config/cava/config
+            sed -i "${gradient_color_2}s/.*/${super_nes_2}/" ~/.config/cava/config
+            sed -i "${gradient_color_3}s/.*/${super_nes_3}/" ~/.config/cava/config
+            sed -i "${gradient_color_4}s/.*/${super_nes_4}/" ~/.config/cava/config
+            sed -i "${gradient_color_5}s/.*/${super_nes_5}/" ~/.config/cava/config
+            sed -i "${gradient_color_6}s/.*/${super_nes_6}/" ~/.config/cava/config
+            sed -i "${gradient_color_7}s/.*/${super_nes_7}/" ~/.config/cava/config
+            sed -i "${gradient_color_8}s/.*/${super_nes_8}/" ~/.config/cava/config
+            clear
+            echo "The color configuration has been applied..."
+            echo "Please reload your cava config [r]"
+            echo
+            break
+            ;;
+           
         "Grayscale")
             sed -i "${gradient_color_1}s/.*/${grayscale_1}/" ~/.config/cava/config
             sed -i "${gradient_color_2}s/.*/${grayscale_2}/" ~/.config/cava/config
