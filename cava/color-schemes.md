@@ -116,6 +116,20 @@ gradient_color_7 = '#b2eecd'
 gradient_color_8 = '#b6eaef'
 ```
 
+### Super NES
+[![https://imgur.com/txjmPRs.png](https://imgur.com/txjmPRs.png)](https://imgur.com/txjmPRs.png)
+
+```
+gradient_color_1 = '#6541a5'
+gradient_color_2 = '#7556ac'
+gradient_color_3 = '#866bb3'
+gradient_color_4 = '#9780bb'
+gradient_color_5 = '#a896c2'
+gradient_color_6 = '#b9abca'
+gradient_color_7 = '#cac0d1'
+gradient_color_8 = '#dbd6d9'
+```
+
 ### Grayscale
 [![https://imgur.com/pIgXzs4.png](https://imgur.com/pIgXzs4.png)](https://imgur.com/pIgXzs4.png)
 
